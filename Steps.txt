@@ -1,0 +1,7 @@
+C:\Users\ashwi> conda create -n stock-analysis-crew python=3.10 -y
+ conda activate stock-analysis-crew  
+
+C:\Users\ashwi> cd stock_analysis
+poetry install --no-root
+pip install poetry
+pip install langchain groq
